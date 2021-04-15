@@ -576,30 +576,4 @@ textarea.form-control{ height: auto; padding: 10px;}
 	border-radius: 6px;
 	transition: 0.2s all;
 }
-	.index-zxdr li:nth-child(n+1):nth-child(-n+18):hover{background:#FFA500; }
-
-	.index-zxdr li:nth-child(n+1):nth-child(-n+18) a,.index-yqlj a{
-	color: #FF0000;
-	background: 
-		-webkit-linear-gradient(5deg, #FF0000, #ff4500, #32CD32, #FF8C00, #FF00FF, #98fb98);
-		-moz-linear-gradient(5deg, #FF0000, #ff4500, #32CD32, #FF8C00, #FF00FF, #98fb98);
-		-ms-linear-gradient(5deg, #FF0000, #ff4500, #32CD32, #FF8C00, #FF00FF, #98fb98);
-	color: transparent;
-	/*设置字体颜色透明*/
-	-webkit-background-clip: text;
-	/*背景裁剪为文本形式*/
-	-webkit-transition: all 2s ease;
-			transition: all 2s ease;
-	/*动态10s展示*/
-
-	-webkit-animation: slidetounlock 2s infinite;
-}
-@keyframes slidetounlock {
-      0% {
-        background-position: -300px 0
-      }
-      100.1% {
-        background-position: 300px 0
-      }
-}
 }
